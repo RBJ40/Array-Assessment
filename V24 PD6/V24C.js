@@ -978,7 +978,7 @@ const result = titles.forEach((title) =>
 );
 console.log(result);
 // 2) While chaining array methods, print the name of each anime that "includes" the genre action
-const result2 = stringGenres.filter((stringGenres) =>
+const result2 = stringGenres.filter((stringGenre) =>
   stringGenres.includes("action")
 );
 console.log(result2);
