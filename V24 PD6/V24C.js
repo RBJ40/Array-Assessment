@@ -972,6 +972,7 @@ Annual Anime Grand Prix.`,
     stringGenres: ["action"],
   },
 ];
+// 1)While chaining array methods, print the name of each movie that has a score above 8.0
 const result = titles.forEach((title) =>
   title.filter((title) => type.value === "movie" && score >= 8.0)
 );
